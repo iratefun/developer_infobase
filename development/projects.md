@@ -2,9 +2,13 @@
 
 ## Project Folder Naming convention
 
-***project_prefix***__***project_name***__***project_suffix***
+Project folders should utilize the following convention: ***project_prefix***__***project_name***__***project_suffix***
+
+prcr__custom__util
 
 ## Project Prefixes
+
+A project prefix should always be an organizational name.  It should strive to be a sortable, recognizable, organizational classification.
 
 ### PRCR
 
@@ -13,11 +17,24 @@ baseline to build other projects.
 
 ### PTUSA
 
-Projects prefixed with ptusa/PTUSA are projects developed for the previously valid, pentestusa entity.  That entity is currently disolved, making the ptusa prefix present, but invalid.
+Projects prefixed with ptusa/PTUSA are projects developed for the previously valid, pentestusa entity.  That entity is currently disolved, making the ptusa prefix present, but invalid. 
 
 ### IRF/IRATEFUN
 
 Projects prefixed with irf/IRF/iratefun/IRATEFUN are my current personal projects.
 
+## Project Names
+
+A project name should be a lowercase, underscore separated, name.
 
 ## Project Suffixes
+
+A project suffix should always be a project type classification.
+
+__util
+__lib
+__run
+__build
+__deploy
+__orchestra
+__conductor

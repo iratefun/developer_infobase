@@ -23,8 +23,8 @@
 18. Static File Projects contain static files which may be incorporated by various projects.
 19. Package Builder Projects build packages from other project types.
 20. Deployment Projects only deploy packages to environments; any other function is out of their scope.
-21. Orchestration Projects only orchestrate over their defined dominion.
-22. Orchestra Projects only conduct orchestrations in their defined dominion.
+21. Orchestra Projects only orchestrate over their defined dominion.
+22. Conductor Projects only conduct orchestrations in their defined dominion.
 23. Deployment Projects should be entirely separate from Package Builder Projects (and vice versa).
 24. All packages should be buildable with a single command.
 25. All deployments should be deployable with a single command.
