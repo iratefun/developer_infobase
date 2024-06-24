@@ -1,6 +1,6 @@
 # Development Axioms For All Projects
 
-**These axioms are only for specific projects that I myself build and maintain.  These rules work for me, personally.  These are not standard definitions, these are context dependent within my own working environment.**
+**These axioms are only for specific projects that I myself build and maintain.  These axioms work for me, personally.  These are not standard definitions, these are context dependent within my own working environment and lived experience.**
 
 
 1. Maximize for ease of readability, then simplicity, then brevity.
@@ -23,9 +23,10 @@
 18. Deployment Projects should be entirely separate from Package Builder Projects (and vice versa).
 19. All packages should be buildable with a single command.
 20. All deployments should be deployable with a single command.
-21. Where reasonable, administration and moderation tools should be developed to work only out of band to minimize attack surface.
+21. Administration and moderation tools should be developed to work only out of band to minimize attack surface.
 22. Unit tests ought to be used only where important and meaningful.
 23. All web projects should incorporate the strictest CSP policy as a baseline.
-24. Always be suspicious of both code and the people that write it.
-25. A hash is often the best index.
+24. Always be suspicious of code, and the people that write it.
+25. A hash is often, but not always, the best index.
 26. Enigmatic ideas, labels, and conventions are useless outside of marketing.
+27. Avoid SQL, it is useful, and performant.
