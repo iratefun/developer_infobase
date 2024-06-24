@@ -1,5 +1,6 @@
 # Getting Started
 
+Test test!
 Welcome to your new foam workspace, let's get you started.
 
 > if you are already familiar with Foam and don't need help, just remove the `docs` folder for a clean repo.
