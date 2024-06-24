@@ -23,13 +23,15 @@
 18. Static File Projects contain static files which may be incorporated by various projects.
 19. Package Builder Projects build packages from other project types.
 20. Deployment Projects only deploy packages to environments; any other function is out of their scope.
-21. Deployment Projects should be entirely separate from Package Builder Projects (and vice versa).
-22. All packages should be buildable with a single command.
-23. All deployments should be deployable with a single command.
-24. Administration and moderation tools should be developed to work only out of band to minimize attack surface.
-25. Unit tests ought to be used only where important and meaningful.
-26. All web projects should incorporate the strictest CSP policy as a baseline.
-27. Always be suspicious of code, and the people that write it.
-28. A hash is often, but not always, the best index.
-29. Enigmatic ideas, labels, and conventions are useless outside of marketing.
-30. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
+21. Orchestration Projects only orchestrate over their defined dominion.
+22. Orchestra Projects only conduct orchestrations in their defined dominion.
+23. Deployment Projects should be entirely separate from Package Builder Projects (and vice versa).
+24. All packages should be buildable with a single command.
+25. All deployments should be deployable with a single command.
+26. Administration and moderation tools should be developed to work only out of band to minimize attack surface.
+27. Unit tests ought to be used only where important and meaningful.
+28. All web projects should incorporate the strictest CSP policy as a baseline.
+29. Always be suspicious of code, and the people that write it.
+30. A hash is often, but not always, the best index.
+31. Enigmatic ideas, labels, and conventions are useless outside of marketing.
+32. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
