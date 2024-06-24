@@ -31,10 +31,10 @@ A project name should be a lowercase, underscore separated, name.
 
 A project suffix should always be a project type classification.
 
-__util
-__lib
-__run
-__build
-__deploy
-__orchestra
-__conductor
+* __util
+* __lib
+* __run
+* __build
+* __deploy
+* __orchestra
+* __conductor
