@@ -2,7 +2,7 @@
 
 ## Project Folder Naming convention
 
-Project folders should utilize the following convention: ***project_prefix***__***project_name***__***project_type_suffix***__***optional_tailings***
+Project folders should utilize the following convention: project_prefix__project_name__project_type_suffix__optional_tailings
 
 prcr__custom__util
 
