@@ -32,4 +32,4 @@
 27. Always be suspicious of code, and the people that write it.
 28. A hash is often, but not always, the best index.
 29. Enigmatic ideas, labels, and conventions are useless outside of marketing.
-30. Avoid SQL, it is useful, and performant, but it's cost in maintainence and data transformation is painful.
+30. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
