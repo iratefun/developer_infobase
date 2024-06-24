@@ -4,6 +4,7 @@
 
 Project folders should utilize the following convention: project_prefix__project_name__project_type_suffix__optional_tailings
 
+Example:
 prcr__custom__util
 
 ## Project Prefixes
