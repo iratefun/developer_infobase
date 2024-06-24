@@ -27,4 +27,5 @@
 22. Unit tests ought to be used only where important and meaningful.
 23. All web projects should incorporate the strictest CSP policy as a baseline.
 24. Always be suspicious of both code and the people that write it.
-
+25. A hash is often the best index.
+26. Enigmatic ideas, labels, and conventions are useless outside of marketing.
