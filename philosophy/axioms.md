@@ -26,4 +26,5 @@
 21. Where reasonable, administration and moderation tools should be developed to work only out of band to minimize attack surface.
 22. Unit tests ought to be used only where important and meaningful.
 23. All web projects should incorporate the strictest CSP policy as a baseline.
+24. Always be suspicious of both code and the people that write it.
 
