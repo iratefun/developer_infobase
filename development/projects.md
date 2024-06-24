@@ -2,7 +2,7 @@
 
 ## Project Folder Naming convention
 
-Project folders should utilize the following convention: ***project_prefix***__***project_name***__***project_suffix***
+Project folders should utilize the following convention: ***project_prefix***__***project_name***__***project_type_suffix***__***optional_tailings***
 
 prcr__custom__util
 
@@ -27,9 +27,9 @@ Projects prefixed with irf/IRF/iratefun/IRATEFUN are my current personal project
 
 A project name should be a lowercase, underscore separated, name.
 
-## Project Suffixes
+## Project Type Suffixes
 
-A project suffix should always be a project type classification.
+A project type suffix should always be a project type classification.
 
 * __util
 * __lib
@@ -38,3 +38,8 @@ A project suffix should always be a project type classification.
 * __deploy
 * __orchestra
 * __conductor
+
+
+## Project Optional Tailings
+
+Project optional tailings should be avoided where possible, but sometimes, they become necessary to distinguish between packages.
