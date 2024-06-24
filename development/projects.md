@@ -30,7 +30,7 @@ A project name should be a lowercase, underscore separated, name.
 
 ## Project Type Suffixes
 
-A project type suffix should always be a project type classification.
+A project type suffix should always be a project type classification.  The list below shows the current project types represented.
 
 * __util
 * __lib
