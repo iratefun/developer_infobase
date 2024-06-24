@@ -42,4 +42,4 @@ A project type suffix should always be a project type classification.
 
 ## Project Optional Tailings
 
-Project optional tailings should be avoided where possible, but sometimes, they become necessary to distinguish between packages.
+Project optional tailings should be avoided where possible, but sometimes, they become necessary to distinguish between packages.  They are project dependent, and are not deterministically parsable by default.
