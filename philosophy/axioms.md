@@ -10,6 +10,7 @@
 8. Deployment should be separate from building, and should be dynamic.
 9. A package is the combination of any built code and static resources.
 10. All packages should be buildable with a single command.
-11. Maximize readability, then simplicity, then brevity.
-12. Where reasonable, administration tools should be developed to work only out of band.
+11. All deployments should be deployable with a single command.
+12. Maximize readability, then simplicity, then brevity.
+13. Where reasonable, administration tools should be developed to work only out of band.
 
