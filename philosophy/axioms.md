@@ -1,4 +1,4 @@
-#Development Axioms For All Projects
+# Development Axioms For All Projects
 
 1. Code, static resources, and build utilities should all remain separate.
 2. All projects should aim to limit dependencies.
