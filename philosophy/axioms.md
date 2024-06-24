@@ -16,7 +16,7 @@
 12. Plugin Projects should all use the same loader classes for all runnable projects.
 13. Static File Projects contain static files which may be incorporated by various projects.
 14. Package Builder Projects build packages from other project types.
-15. Deployment Projects deploy packages to environments.
+15. Deployment Projects only deploy packages to environments; any other function is out of their scope.
 16. Deployment Projects should be entirely separate from Package Builder Projects (and vice versa).
 17. All packages should be buildable with a single command.
 18. All deployments should be deployable with a single command.
