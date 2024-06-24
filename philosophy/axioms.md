@@ -18,7 +18,8 @@
 14. All packages should be buildable with a single command.
 15. All deployments should be deployable with a single command.
 16. Maximize for readability, then simplicity, then brevity.
-17. Comments give pause for a written second thought.  That is their primary purpose, not documentation.  An out of date comment is worth it's trouble, paid in prior contemplation.
-18. Where reasonable, administration tools should be developed to work only out of band.
+17. Comments give pause for a written second thought.  That is their primary purpose, not documentation.  An out of date comment is worth its cost, paid in prior contemplation.
+18. Where reasonable, administration and moderation tools should be developed to work only out of band to minimize attack surface.
 19. Unit tests ought to be used only where important and meaningful.
+20. All web projects should incorporate the strictest CSP policy as a baseline.
 
