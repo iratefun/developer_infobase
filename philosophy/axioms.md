@@ -10,7 +10,7 @@
 5. A runnable is a buildable project which can be invoked as a process.
 6. A plugin is a buildable project which can be loaded by a runnable.
 7. A library is a buildable project containing exported/importable/linkable classes or code.
-8. A package is the combination of any built code and static resources.
+8. A package is the combination of any built code and/or static resources.
 9. A builder is a project designed to be used by a manufacturer to create packages.
 10. A manufacturer operates one or more builders to build packages.
 11. A deployment is the distribution, configuration, and integration of a project to/in an environment.
@@ -38,3 +38,4 @@
 33. Enigmatic ideas, labels, and conventions are useless outside of marketing.
 34. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
 35. A runnable must either be packagable as an electron app, or a node single-executable-application.
+36. Runnable entrypoints should be async functions: (async function(){...})()
