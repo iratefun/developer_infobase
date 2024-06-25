@@ -38,4 +38,9 @@
 33. Enigmatic ideas, labels, and conventions are useless outside of marketing.
 34. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
 35. A runnable must either be packagable as an electron app, or a node single-executable-application.
-36. Runnable entrypoints should be async functions: (async function(){...})()
+36. All projects should try to share a parent node_modules directory for development.
+37. Runnable entrypoints should be async functions: (async function(){...})()
+38. Libraries should be loaded by importing an async function symbol named load().
+39. Avoid opaque definitions.  Define in rigid, quasi mathematical terms.
+40. Definitions should seek to be natural.
+41. Seek to make the developers life more streamlined; their role is sarcosanct to any success.
