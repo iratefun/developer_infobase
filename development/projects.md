@@ -36,9 +36,9 @@ A project type suffix should always be a project type classification.  The list 
 * __util
 * __lib
 * __run
-* __build
-* __deploy
-* __orchestra
+* __builder
+* __deployer
+* __orchestrator
 * __conductor
 
 

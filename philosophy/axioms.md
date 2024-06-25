@@ -35,3 +35,4 @@
 30. A hash is often, but not always, the best index.
 31. Enigmatic ideas, labels, and conventions are useless outside of marketing.
 32. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
+33. A runnable must either be packagable as an electron app, or a node single-executable-application.
