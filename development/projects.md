@@ -33,9 +33,10 @@ A project name should be a lowercase, underscore separated, name.
 
 A project type suffix should always be a project type classification.  The list below shows the current project types represented.
 
+* __static
 * __util
 * __lib
-* __run
+* __runnable
 * __builder
 * __deployer
 * __orchestrator
