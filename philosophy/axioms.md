@@ -53,3 +53,4 @@
 48. All projects and databases must have a documentation page, no exceptions.
 49. All database records must be cross referencable with the project id that inserted it.
 50. Stress and work are not the same thing.  Beware of any who would add stress to work, as it is allegorical to poisoning.
+51. I would rather one large library than many smaller ones.
