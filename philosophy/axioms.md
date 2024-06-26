@@ -49,4 +49,6 @@
 44. Dependencies should propagate through library loads.
 45. Seek to make the developers life more streamlined; their role is sarcosanct to any success.
 46. All runnable projects import the prcr__custom_utilities__util library as a first library. 
-47. All projects and databases must have a documentation page, no exceptions.
+47. All projects must have a unique UUID value that never changes.
+48. All projects and databases must have a documentation page, no exceptions.
+49. All database records must be cross referencable with a project id.
