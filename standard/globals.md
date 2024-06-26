@@ -10,7 +10,10 @@ An irf_core object should always be made present in any of the following:
 * thread
 * worker
 
+The definition of this object should be above the process entry point function, in the main project entry point file.
+
 ```
+// core object definition
 process.irf_core = 
 {
     deps: {},
