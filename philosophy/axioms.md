@@ -21,7 +21,7 @@
 16. Utility Library Projects should contain functions which can be shared between libraries.
 17. Class Library Projects should contain classes and should never operate as a runnable.
 18. Runnable Projects should be an implementation of outside library classes.  Care should be taken to ensure that runnable projects hold only project specific implementations of existing classes.
-19. Plugin Projects should all use the same loader classes for all runnable projects.
+19. All projects should use the same loader classes for all things: eg. libraries, plugins, and dependencies.
 20. Static File Projects contain static files which may be incorporated by various projects.
 21. Package Builder Projects build packages from other project types.
 22. Deployment Projects only deploy packages to environments; any other function is out of their scope.
@@ -47,3 +47,4 @@
 42. process.irf_core.deps contains loaded dependencies (such as those loaded via require/import).
 43. Dependencies should propagate through library loads.
 44. Seek to make the developers life more streamlined; their role is sarcosanct to any success.
+45. All runnable projects import the prcr__custom_utilities__util library.
