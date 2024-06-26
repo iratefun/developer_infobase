@@ -43,7 +43,7 @@
 38. Libraries should be loaded by importing an async function symbol named load().
 39. Avoid opaque definitions.  Define in rigid, quasi mathematical terms.
 40. Definitions should seek to be natural.
-41. process.irf_core contains shared process resources.  The name was chosen arbitrarily to be distinct.
+41. process.irf_core contains shared process resources.  All processes, workers, and threads have their own irf_core.
 42. process.irf_core.deps contains loaded dependencies (such as those loaded via require/import).
 43. Dependencies should propagate through library loads.
 44. Seek to make the developers life more streamlined; their role is sarcosanct to any success.
