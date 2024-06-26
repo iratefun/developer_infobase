@@ -51,4 +51,5 @@
 46. All runnable projects import the prcr__custom_utilities__util library as a first library. 
 47. All projects must have a unique UUID value that never changes.
 48. All projects and databases must have a documentation page, no exceptions.
-49. All database records must be cross referencable with a project id.
+49. All database records must be cross referencable with the project id that inserted it.
+50. Stress and work are not the same thing.  Beware of any who would add stress to work, as it is allegorical to poisoning.
