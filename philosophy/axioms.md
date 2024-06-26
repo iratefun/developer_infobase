@@ -54,3 +54,4 @@
 49. All database records must be cross referencable with the project id that inserted it.
 50. Stress and work are not the same thing.  Beware of any who would add stress to work, as it is allegorical to poisoning.
 51. I would rather one large library than many smaller ones.
+52. All classes that are not explictly and wholely proprietary to a project, should ONLY live in the prcr__class__lib project.
