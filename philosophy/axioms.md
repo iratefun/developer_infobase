@@ -48,4 +48,5 @@
 43. process.irf_core.deps contains loaded dependencies (such as those loaded via require/import).
 44. Dependencies should propagate through library loads.
 45. Seek to make the developers life more streamlined; their role is sarcosanct to any success.
-46. All runnable projects import the prcr__custom_utilities__util library.
+46. All runnable projects import the prcr__custom_utilities__util library as a first library. 
+47. All projects and databases must have a documentation page, no exceptions.
