@@ -8,4 +8,4 @@ The reason for this somewhat extreme view, is the "inventors shed" development i
 
 This project used to be just the generic "utility classes" folder, and did not adhere to  our development axioms.  For this reason, it keeps it's dependencies in the "process.ptusa_utility_classes_internal" object.  We will be aiming to change this.
 
-- [] identify and update all references of ptusa_utility_classes_internal.
+- [ ] identify and update all references of ptusa_utility_classes_internal.
