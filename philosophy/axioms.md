@@ -16,45 +16,50 @@
 11. A deployment is the distribution, configuration, and integration of a project to/in an environment.
 12. An orchestration is multiple deployments.
 13. An orchestra manages orchestrations.
-14. Projects should aim to limit external dependencies.
-15. Projects should remain separate except in linkage and packaging.
-16. Utility Library Projects should contain functions which can be shared between libraries.
-17. Class Library Projects should contain classes and should never operate as a runnable.
-18. Runnable Projects should be an implementation of outside library classes.  Care should be taken to ensure that runnable projects hold only project specific implementations of existing classes.
-19. All projects should use the same loader classes for all things: eg. libraries, plugins, and dependencies.
-20. All projects should use the same API conventions (for both websocket and POST APIs)
-21. Static File Projects contain static files which may be incorporated by various projects.
-22. Package Builder Projects build packages from other project types.
-23. Deployment Projects only deploy packages to environments; any other function is out of their scope.
-24. Orchestra Projects only orchestrate over their defined dominion.
-25. Conductor Projects only conduct orchestrations in their defined dominion.
-26. Deployment Projects should be entirely separate from Package Builder Projects (and vice versa).
-27. All packages should be buildable with a single command.
-28. All deployments should be deployable with a single command.
-29. Administration and moderation tools should be developed to work only out of band to minimize attack surface.
-30. Unit tests ought to be used only where important and meaningful.
-31. All web projects should incorporate the strictest CSP policy as a baseline.
-32. Always be suspicious of code, and the people that write it.
-33. A hash is often, but not always, the best index.
-34. Enigmatic ideas, labels, and conventions are useless outside of marketing.
-35. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
-36. A runnable must either be packagable as an electron app, or a node single-executable-application.
-37. All projects should try to share a parent node_modules directory for development. (workspace/software/git_controlled/node_modules/)
-38. Runnable entrypoints should be async functions: (async function(){...})()
-39. Libraries should be loaded by importing an async function symbol named load().
-40. Avoid opaque definitions.  Define in rigid, quasi mathematical terms.
-41. Definitions should seek to be natural.
-42. process.irf_core contains shared process resources.  All processes, workers, and threads have their own irf_core.
-43. process.irf_core.deps contains loaded dependencies (such as those loaded via require/import).
-44. Dependencies should propagate through library loads.
-45. Seek to make the developers life more streamlined; their role is sarcosanct to any success.
-46. All runnable projects import the prcr__custom_utilities__util library as a first library. 
-47. All projects must have a unique UUID value that never changes.
-48. All projects and databases must have a documentation page, no exceptions.
-49. All database records must be cross referencable with the project id that inserted it.
-50. Stress and work are not the same thing.  Beware of any who would add stress to work, as it is allegorical to poisoning.
-51. I would rather one large library than many smaller ones.
-52. All classes that are not explictly and wholely proprietary to a project, should ONLY live in the prcr__class__lib project.
-53. Be patient with the vestigial.  It takes time to disappear, but it should be sought to disappear.
-54. All class names in a project should be distinct and not repeating.
-55. Organization can be studied, and study makes knowledge tennable.
+14. A conductor manages orchestras.
+15. Projects should aim to limit external dependencies.
+16. Projects should remain separate except in linkage and packaging.
+17. Utility Library Projects should contain functions which can be shared between libraries.
+18. Class Library Projects should contain classes and should never operate as a runnable.
+19. Runnable Projects should be an implementation of outside library classes.  
+20. Runnable projects only hold (read: not link, but actually contain the files for) project specific implementations of their classes.
+21. All projects should use the same loader classes for all things: eg. libraries, plugins, and dependencies.
+22. All projects should use the same API conventions (for both websocket and POST APIs)
+23. Static file projects contain static files which may be incorporated by various projects.
+24. Builder projects build packages from other project types.
+25. Deployment projects only deploy packages to environments; any other function is out of their scope.
+26. Orchestra projects only orchestrate over their defined dominion.
+27. Conductor projects only conduct orchestrations in their defined dominion.
+28. Deployment projects should be entirely separate from Package Builder Projects (and vice versa).
+29. All packages should be buildable with a single command.
+30. All deployments should be deployable with a single command.
+31. Administration and moderation tools should be developed to work ***only*** out of band to minimize attack surface.
+32. Unit tests ought to be used only where important and meaningful.
+33. All web projects should incorporate the strictest CSP policy as a starting baseline.
+34. Always be suspicious of code, and the people that write it.
+35. A hash is the index for unique data.
+36. A UUID is the index for unordered data.
+37. An integer is the index for asc/desc-ending data.
+38. All database records must be cross referencable with the project uuid that inserted it.
+39. Enigmatic ideas, labels, and conventions are useless outside of marketing.
+40. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
+41. A runnable must either be packagable as an electron app, or a node single-executable-application.
+42. All projects should share a parent node_modules directory for development. (workspace/software/git_controlled/node_modules/)
+43. A node_modules can be added to a project, but care must be taken to ensure this is ***absolutely*** required.
+44. Runnable entrypoints are async functions: (async function(){...})()
+45. Libraries are loaded by importing an async function named load().
+46. Avoid opaque definitions.  Define in rigid semantics.
+47. Definitions should seek to be natural.
+48. process.irf_core contains shared process resources.  
+49. All processes, workers, and threads have their own process.irf_core.
+50. process.irf_core.deps contains loaded dependencies (such as those loaded via require/import).
+51. The developers role is sarcosanct to any success.
+52. All runnable projects import the prcr__custom_utilities__util library as a first library. 
+53. All projects must have a unique UUID value that never changes.
+54. All projects and databases must have a documentation page, no exceptions.
+55. Stress and work are not the same thing.  Beware of any who would add stress to work, as it is allegorical to poisoning.
+56. I would rather one large library than many smaller ones.
+57. All classes that are not explictly and wholely proprietary to a project, should ONLY live in the prcr__class__lib project.
+58. Be patient with the vestigial.  It takes time to disappear, but it should be sought to disappear.
+59. All class names in a project should be distinct and not repeating.
+60. Organization can be studied, and study makes knowledge tennable.
