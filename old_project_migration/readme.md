@@ -29,7 +29,6 @@ While I'm considering these projects "old," most of them are still modern.  The 
 
 ### iratefun_mitmproxy_plugins
 
-|Label           | Value     |
 |----------------|------------
 |migration state | unstarted |
 
