@@ -11,7 +11,7 @@
 6. A plugin is a buildable project which can be loaded by a runnable.
 7. A library is a buildable project containing exported/importable/linkable classes or code.
 8. A package is the combination of any built code and/or static resources.
-9. A builder is a project designed to be used by a manufacturer to create packages.
+9. A builder is a project designed to be used by a manufacturer to build packages.
 10. A manufacturer operates one or more builders to build packages.
 11. A deployment is the distribution, configuration, and integration of a project to/in an environment.
 12. An orchestration is multiple deployments.
