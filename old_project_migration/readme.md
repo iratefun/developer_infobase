@@ -29,28 +29,112 @@ While I'm considering these projects "old," most of them are still modern.  The 
 
 ### iratefun_mitmproxy_plugins
 
-|----------------|------------
+|----------------|-----------|
 |migration state | unstarted |
 
 
 ### letsencryptserver
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_audit_cluster_v2
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_deployment_tool
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_scriptrunner
+
+|----------------|-----------|
+|migration state | unstarted |
+
+
 ### WebAnythingStudio
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### iratefun_tooling
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_alexander
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_audit_cluster_v2__worker_thread_apis
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_microservices
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_shared_library_v2
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### WebAnythingStudioExampleModules
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### iratefun_utility_classes
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_app_server
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_cdp_client
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_microservice__skeleton_project
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_utility_classes
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### iratefun_website
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_audit_cluster_client_v2_unit_tests
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_cdp_client_modified_during_pentest
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### ptusa_pentest_client_v2
+
+|----------------|-----------|
+|migration state | unstarted |
+
 ### SpokeWebServer
+
+|----------------|-----------|
+|migration state | unstarted |
