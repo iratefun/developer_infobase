@@ -55,4 +55,4 @@
 50. Stress and work are not the same thing.  Beware of any who would add stress to work, as it is allegorical to poisoning.
 51. I would rather one large library than many smaller ones.
 52. All classes that are not explictly and wholely proprietary to a project, should ONLY live in the prcr__class__lib project.
-53. Be patient with the vestegial.  It takes time to disappear, but it should be sought to disappear.
+53. Be patient with the vestigial.  It takes time to disappear, but it should be sought to disappear.
