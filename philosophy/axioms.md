@@ -56,3 +56,4 @@
 51. I would rather one large library than many smaller ones.
 52. All classes that are not explictly and wholely proprietary to a project, should ONLY live in the prcr__class__lib project.
 53. Be patient with the vestigial.  It takes time to disappear, but it should be sought to disappear.
+54. All class names in a project should be distinct and not repeating.
