@@ -85,8 +85,100 @@ The remaining projects are miscelaneous projects.
 ### iratefun_tooling
 
 |----------------|-----------|
-|migration state | unstarted |
+|migration state | started |
 |project uuid|53c4b27a-50ab-43af-a2c3-5fb8bf259a24|
+
+This project is actually a set of sub-projects.
+
+* css_theme_generator_tools
+* data_deletions
+* data_generators
+* data_manipulators
+* irf_content_mitm_proxy
+* security_testing_tools
+* server_deployment_tool
+* simulation_tools
+* url_and_title_analyzer
+* user_tool
+* vgmidis
+
+#### css_theme_generator_tools
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|7b0a5a30-2650-4b06-bbd7-e48477af32f0|
+
+#### data_deletions
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|689b69bc-8c74-4aa1-b51b-434a11ca1312|
+
+#### data_generators
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|a0f20e11-f35b-4058-8b7a-313c7e212f10|
+
+#### data_manipulators
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|1d1d085d-4c44-42d2-96cf-3aca2045e20b|
+
+#### irf_content_mitm_proxy
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|e573737c-435b-47ec-88b8-768cfc45f442|
+
+#### security_testing_tools
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|7667a747-3f21-494c-8d19-f553e5183f9e|
+
+#### server_deployment_tool
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|c50e5470-ced3-4680-b606-230e32684585|
+
+#### simulation_tools
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|4b951a90-d3e8-42ee-bead-eb4eda3747e7|
+
+#### url_and_title_analyzer
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|cb30b2a8-a9d0-487e-aab1-cc50825d9327|
+
+#### user_tool
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|6a01246f-f992-42c9-aa96-8f7511087bb9|
+
+#### vgmidis
+
+|----------------|-----------|
+| parent project | iratefun_tooling | 
+|migration state | started |
+|project uuid|1e379beb-c485-4c9e-95f2-ad83186ef18c|
+
 
 ### ptusa_alexander
 
