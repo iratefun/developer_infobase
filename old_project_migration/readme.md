@@ -17,7 +17,7 @@ Since the iratefun website project is the most modern, and pressing project, we 
 * iratefun_website
 * iratefun_mitmproxy_plugins  
 
-PentestUSA projects are fairly large, and contain very useful code, but due to the organization being defunction/disolved we'll be migrating those projects after iratefun projects.  Of special note, we have the auditcluster websocket api server, which allows for simultaneous event driven controls to utilize a single connection using a system of trancievers. We want to separate that functionality into it's own standalone project, similar to the SpokeWebServer.
+PentestUSA projects are fairly large, and contain very useful code, but due to the organization being defunct/disolved we'll be migrating those projects after iratefun projects.  Of special note, we have the auditcluster websocket api server, which allows for simultaneous event driven controls to utilize a single connection using a system of trancievers. We want to separate that functionality into it's own standalone project, similar to the SpokeWebServer.
 
 * ptusa_utility_classes
 * ptusa_audit_cluster_v2
