@@ -63,3 +63,5 @@
 58. Be patient with the vestigial.  It takes time to disappear, but it should be sought to disappear.
 59. All class names in a project should be distinct and not repeating.
 60. Organization can be studied, and study makes knowledge tennable.
+61. Projects that require a configuration file, should be capable of also generating configuration file templates for users to expand on.
+62. Objects should use always self-references instead of "this."

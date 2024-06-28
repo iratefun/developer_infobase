@@ -176,7 +176,7 @@ This project needs to be turned into a runnable component, and a plugin componen
 The runnable component needs to simply be a mitm proxy package.
 The plugin part must be a plugin loadable by the runnable.
 
-* mitmmod__mitmproxy__runnable
+* mitmmod__mitm_http_proxy__runnable
 * iratefun__mitmmod_admin__plugin
 
 
