@@ -4,6 +4,21 @@ While I'm considering these projects "old," most of them are still modern.  The 
 
 Old projects should be migrated before any new development takes place.
 
+## Migration Utility Snippets
+
+When we are migrating, we need to be able to easily update class dependencies. The following code snippets should assist.
+
+```
+
+// external dependencies 
+let { ... } = process.irf_core.deps;
+
+// gather custom utils
+let custom_utils = process.irf_core.libs["prcr__custom_utilities__util"];
+
+```
+
+
 ## Project Directories
 
 Core projects should be migrated first.
@@ -108,6 +123,11 @@ This project is actually a set of sub-projects.
 | parent project | iratefun_tooling | 
 |migration state | started |
 |project uuid|7b0a5a30-2650-4b06-bbd7-e48477af32f0|
+
+* color_manipulator
+* css_modifier
+* irf_theme_generator
+* irf_themes
 
 #### data_deletions
 
