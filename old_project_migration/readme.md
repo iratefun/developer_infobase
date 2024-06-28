@@ -13,6 +13,9 @@ When we are migrating, we need to be able to easily update class dependencies. T
 // external dependencies 
 let { ... } = process.irf_core.deps;
 
+// project core classes 
+let { ... } = process.irf_core.classes;
+
 // gather custom utils
 let custom_utils = process.irf_core.libs["prcr__custom_utilities__util"];
 
