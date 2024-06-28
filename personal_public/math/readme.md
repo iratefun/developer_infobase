@@ -1,8 +1,12 @@
-# Khan Academy Math Refresher Progress
+# Math Refresher Progress
 
 I intend to complete all available math courses on Khan Academy as a matter of both refreshing and furthering my capabilities in the domain of math.  This folder intends to track my progress.
 
 The number of courses available is reasonable, and after googling a bit it seems the correct progression for Khan Academy courses is: Algebra 1 -> Geometry -> Algebra 2 -> AP®︎/College Statistics -> Precalculus -> Differential Calculus -> Integral Calculus -> Multivariable Calculus
+
+
+General Information:
+* [Formulas To Memorize](formulas_to_remember.md)
 
 Courses Which Remain:
 * -[ ] [Algebra 1](https://www.khanacademy.org/math/algebra)
