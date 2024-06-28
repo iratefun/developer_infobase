@@ -27,7 +27,7 @@ Courses Which Remain:
 
 Completed Courses: 
 
--[x] [Get Ready For Algebra 1](https://www.khanacademy.org/math/get-ready-for-algebra-i)
+- [x] [Get Ready For Algebra 1](https://www.khanacademy.org/math/get-ready-for-algebra-i)
 * Final Exam Last Taken: June 27, 2024 (score 87%)
   * Difficulties came in the form of semantics, not concepts.
 
