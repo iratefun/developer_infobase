@@ -143,12 +143,16 @@ This project is actually a set of sub-projects.
 |migration state | started |
 |project uuid|689b69bc-8c74-4aa1-b51b-434a11ca1312|
 
+This project has no classes, and only operates as a runnable.
+
 #### data_generators
 
 |----------------|-----------|
 | parent project | iratefun_tooling | 
 |migration state | started |
 |project uuid|a0f20e11-f35b-4058-8b7a-313c7e212f10|
+
+This project has no classes, and only operates as a runnable.
 
 #### data_manipulators
 
@@ -157,12 +161,26 @@ This project is actually a set of sub-projects.
 |migration state | started |
 |project uuid|1d1d085d-4c44-42d2-96cf-3aca2045e20b|
 
+This project is empty and has been discarded.
+
 #### irf_content_mitm_proxy
 
 |----------------|-----------|
 | parent project | iratefun_tooling | 
 |migration state | started |
+|migrating to | tools__mitmmod__runnable, iratefun__mitmod_admin__plugin |
 |project uuid|e573737c-435b-47ec-88b8-768cfc45f442|
+
+This project needs to be turned into a runnable component, and a plugin component.
+
+The runnable component needs to simply be a mitm proxy package.
+The plugin part must be a plugin loadable by the runnable.
+
+* tools__mitmmod__runnable
+* iratefun__mitmod_admin__plugin
+
+
+
 
 #### security_testing_tools
 
