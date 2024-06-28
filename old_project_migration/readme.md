@@ -124,13 +124,17 @@ This project is actually a set of sub-projects.
 
 |----------------|-----------|
 | parent project | iratefun_tooling | 
-|migration state | started |
+|migration state | classes migrated |
 |project uuid|7b0a5a30-2650-4b06-bbd7-e48477af32f0|
 
 * color_manipulator
+  * migrated
 * css_modifier
+  * migrated
 * irf_theme_generator
+  * no migration performed
 * irf_themes
+  * no migration performed
 
 #### data_deletions
 
