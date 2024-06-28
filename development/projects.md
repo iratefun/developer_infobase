@@ -27,7 +27,7 @@ Projects prefixed with irf/IRF/iratefun/IRATEFUN are my current personal project
 
 ### MITMMOD
 
-MITM Modular Proxy project.
+MITM Modular Proxy project prefix.
 
 
 ## Project Names
