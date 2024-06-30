@@ -1,5 +1,7 @@
 # prcr__class__lib
 
+|Project UUID|df1a2dbb-de0a-4247-b95d-6844dc66577a|
+
 This project core library contains classes which are not absolutely proprietary to an individual project.  What this means is, unless a class will, and can, have no other use except to the project it's used in, the class should exist in this library.
 
 The reason for this somewhat extreme view, is the "inventors shed" development ideal.  I, as a programmer, seek invention.  This library is intended to be a shelf with parts that I can choose, and use, and integrate.  The more general parts that are obviously available and ready, the easier the process of combination, and in-turn invention, becomes.
