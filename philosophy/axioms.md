@@ -67,3 +67,4 @@
 62. Objects should use always self-references instead of "this."
 63. All runnables share a standard entry point (prcr__runnable_entry_point__util)
 64. Configuration parsers should be within prcr__class__lib.  Projects ought not hold their own config parsers.  This is so other projects can import configurations without having to look into a runnable source.
+65. If the project is a runnable, it should have only one ProjectCoreRunnable instance, and it should be available in process.irf_core.runnable.
