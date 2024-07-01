@@ -65,3 +65,4 @@
 60. Organization can be studied, and study makes knowledge tennable.
 61. Projects that require a configuration file, should be capable of also generating configuration file templates for users to expand on.
 62. Objects should use always self-references instead of "this."
+63. Configuration parsers should be within prcr__class__lib.  Projects ought not hold their own config parsers.  This is so other projects can import configurations without having to look into a runnable source.
