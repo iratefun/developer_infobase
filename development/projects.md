@@ -36,18 +36,22 @@ A project name should be a lowercase, underscore separated, name.
 
 ## Project Type Suffixes
 
-A project type suffix should always be a project type classification.  The list below shows the current project types represented.
+A project type suffix should always be a project type classification.  The lists below shows the current generic and specific project types represented.  Specific project types are defined according to their own obviously-unique purpose.  A project type specification should be avoided if a generic type fits more accurately.
 
-* __static
-* __util
-* __lib
-* __runnable
-* __plugin
-* __builder
-* __manufacturer
-* __deployer
-* __orchestrator
-* __conductor
+### Generic Project Types
+* __static: static files
+* __util: utility function library
+* __lib: class library
+* __runnable: runnable program project
+* __plugin: plugin project (extends functionality to a runnable)
+* __builder: builds a library or runnable.
+* __manufacturer: runs multiple builders (manufacturers)
+* __deployer: runs a deployment
+* __orchestrator: orchestrates deployments.
+* __conductor: conducts orchestrations.
+
+### Application Specific Project Types
+* __spokesite: A website build to be imported within the spoke webserver.
 
 
 ## Project Optional Tailings
