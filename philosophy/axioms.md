@@ -24,7 +24,7 @@
 19. Runnable Projects should be an implementation of outside library classes.  
 20. Runnable projects only hold (read: not link, but actually contain the files for) project specific implementations of their classes.
 21. All projects should use the same loader classes for all things: eg. libraries, plugins, and dependencies.
-22. All projects should use the same API conventions (for both websocket and POST APIs)
+22. All projects should use the same API conventions (for both websocket and POST APIs).  We use WebServerRoute.respondError and respondJSON which notates data to our standard.
 23. Static file projects contain static files which may be incorporated by various projects.
 24. Builder projects build packages from other project types.
 25. Deployment projects only deploy packages to environments; any other function is out of their scope.
@@ -72,3 +72,4 @@
 67. Work in immediacy, only with what you have.
 68. Work for the sake of accomplishment, even if none celebrate those wins.
 69. Innate failings and shortcomings are not an excuse to drown.
+70. 
