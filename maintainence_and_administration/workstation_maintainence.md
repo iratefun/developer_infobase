@@ -3,7 +3,7 @@
 To make maintainence tasks simpler, the following bash script is utilized.  This script will utilize abraxas (tool) to build all projects that have associated builders, ensure the builds were successful, and then log the results of the manufacturing of those packages.  Then all git_controlled repositories will have their files added, committed, and pushed to the remote repos.  This is not an issue considering these are my repos only, and I don't have to worry about conflicts.
 
 ```
-!#/bin/bash
+#!/bin/bash
 # Workstation Maintainence Script
 
 # invoke abraxas package manufacturer (builds packages)
