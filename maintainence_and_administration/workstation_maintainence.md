@@ -7,10 +7,15 @@ To make maintainence tasks simpler, the following bash script is utilized.  This
 # Workstation Maintainence Script
 
 # invoke abraxas package manufacturer (builds packages)
+pushd ./
+cd /home/tourist/workspace/software/git_controlled/prcr__abraxas__runnable/
 node ./prcr__abraxas__runnable.js --config_file "/home/tourist/workspace/configs/manufacturer/prcr__manufacturer_config.json"
+popd
 
 # invoke sisyphus task runner (runs admin/maintainence tasks)
 pushd ./
 cd /home/tourist/workspace/software/git_controlled/prcr__sisyphus__runnable/
 node ./prcr__sisyphus__runnable.js --config_file "/home/tourist/workspace/configs/sisyphus/build_all_git_add_all_git_commit_all_git_push_all.sisyphus.js"
+popd
+
 ```
