@@ -71,3 +71,4 @@
 66. Always consider the dimensionality of what "better" means.
 67. Work in immediacy, only with what you have.
 68. Work for the sake of accomplishment, even if none celebrate those wins.
+69. Innate failings and shortcomings are not an excuse to drown.
