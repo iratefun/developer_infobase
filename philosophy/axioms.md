@@ -25,51 +25,52 @@
 20. Runnable projects only hold (read: not link, but actually contain the files for) project specific implementations of their classes.
 21. All projects should use the same loader classes for all things: eg. libraries, plugins, and dependencies.
 22. All projects should use the same API conventions (for both websocket and POST APIs).  We use WebServerRoute.respondError and respondJSON which notates data to our standard.
-23. Static file projects contain static files which may be incorporated by various projects.
-24. Builder projects build packages from other project types.
-25. Deployment projects only deploy packages to environments; any other function is out of their scope.
-26. Orchestra projects only orchestrate over their defined dominion.
-27. Conductor projects only conduct orchestrations in their defined dominion.
-28. Deployment projects should be entirely separate from Package Builder Projects (and vice versa).
-29. All packages should be buildable with a single command.
-30. All deployments should be deployable with a single command.
-31. Administration and moderation tools should be developed to work ***only*** out of band to minimize attack surface.
-32. Unit tests ought to be used only where important and meaningful.
-33. All web projects should incorporate the strictest CSP policy as a starting baseline.
-34. Always be suspicious of code, and the people that write it.
-35. A hash is the index for unique data.
-36. A UUID is the index for unordered data.
-37. An integer is the index for asc/desc-ending data.
-38. All database records must be cross referencable with the project uuid that inserted it.
-39. Enigmatic ideas, labels, and conventions are useless outside of marketing.
-40. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
-41. A runnable must either be packagable as an electron app, or a node single-executable-application.
-42. All projects should share a parent node_modules directory for development. (workspace/software/git_controlled/node_modules/)
-43. A node_modules can be added to a project, but care must be taken to ensure this is ***absolutely*** required.
-44. Runnable entrypoints are async functions: (async function(){...})()
-45. Libraries are loaded by importing an async function named load().
-46. Avoid opaque definitions.  Define in rigid semantics.
-47. Definitions should seek to be natural.
-48. process.irf_core contains shared process resources.  
-49. All processes, workers, and threads have their own process.irf_core.
-50. process.irf_core.deps contains loaded dependencies (such as those loaded via require/import).
-51. The developers role is sarcosanct to any success.
-52. All runnable projects import the prcr__custom_utilities__util library as a first library. 
-53. All projects must have a unique UUID value that never changes.
-54. All projects and databases must have a documentation page, no exceptions.
-55. Stress and work are not the same thing.  Beware of any who would add stress to work, as it is allegorical to poisoning.
-56. I would rather one large library than many smaller ones.
-57. All classes that are not explictly and wholely proprietary to a project, should ONLY live in the prcr__class__lib project.
-58. Be patient with the vestigial.  It takes time to disappear, but it should be sought to disappear.
-59. All class names in a project should be distinct and not repeating.
-60. Organization can be studied, and study makes knowledge tennable.
-61. Projects that require a configuration file, should be capable of also generating configuration file templates for users to expand on.
-62. Objects should use always self-references instead of "this."
-63. All runnables share a standard entry point (prcr__runnable_entry_point__util)
-64. Configuration parsers should be within prcr__class__lib.  Projects ought not hold their own config parsers.  This is so other projects can import configurations without having to look into a runnable source.
-65. If the project is a runnable, it should have only one ProjectCoreRunnable instance, and it should be available in process.irf_core.runnable.
-66. Always consider the dimensionality of what "better" means.
-67. Work in immediacy, only with what you have.
-68. Work for the sake of accomplishment, even if none celebrate those wins.
-69. Innate failings and shortcomings are not an excuse to drown.
-70. 
+23. All POST APIs should share the same data validation mechanisms (DataValidators.class.js)
+24. Static file projects contain static files which may be incorporated by various projects.
+25. Builder projects build packages from other project types.
+26. Deployment projects only deploy packages to environments; any other function is out of their scope.
+27. Orchestra projects only orchestrate over their defined dominion.
+28. Conductor projects only conduct orchestrations in their defined dominion.
+29. Deployment projects should be entirely separate from Package Builder Projects (and vice versa).
+30. All packages should be buildable with a single command.
+31. All deployments should be deployable with a single command.
+32. Administration and moderation tools should be developed to work ***only*** out of band to minimize attack surface.
+33. Unit tests ought to be used only where important and meaningful.
+34. All web projects should incorporate the strictest CSP policy as a starting baseline.
+35. Always be suspicious of code, and the people that write it.
+36. A hash is the index for unique data.
+37. A UUID is the index for unordered data.
+38. An integer is the index for asc/desc-ending data.
+39. All database records must be cross referencable with the project uuid that inserted it.
+40. Enigmatic ideas, labels, and conventions are useless outside of marketing.
+41. Avoid SQL, it is useful, and performant, but its cost in maintainence and data transformation is painful.
+42. A runnable must either be packagable as an electron app, or a node single-executable-application.
+43. All projects should share a parent node_modules directory for development. (workspace/software/git_controlled/node_modules/)
+44. A node_modules can be added to a project, but care must be taken to ensure this is ***absolutely*** required.
+45. Runnable entrypoints are async functions: (async function(){...})()
+46. Libraries are loaded by importing an async function named load().
+47. Avoid opaque definitions.  Define in rigid semantics.
+48. Definitions should seek to be natural.
+49. process.irf_core contains shared process resources.  
+50. All processes, workers, and threads have their own process.irf_core.
+51. process.irf_core.deps contains loaded dependencies (such as those loaded via require/import).
+52. The developers role is sarcosanct to any success.
+53. All runnable projects import the prcr__custom_utilities__util library as a first library. 
+54. All projects must have a unique UUID value that never changes.
+55. All projects and databases must have a documentation page, no exceptions.
+56. Stress and work are not the same thing.  Beware of any who would add stress to work, as it is allegorical to poisoning.
+57. I would rather one large library than many smaller ones.
+58. All classes that are not explictly and wholely proprietary to a project, should ONLY live in the prcr__class__lib project.
+59. Be patient with the vestigial.  It takes time to disappear, but it should be sought to disappear.
+60. All class names in a project should be distinct and not repeating.
+61. Organization can be studied, and study makes knowledge tennable.
+62. Projects that require a configuration file, should be capable of also generating configuration file templates for users to expand on.
+63. Objects should use always named self-references instead of "this."
+64. All runnables share a standard entry point (prcr__runnable_entry_point__util)
+65. Configuration parsers should be within prcr__class__lib.  Projects ought not hold their own config parsers.  This is so other projects can import configurations without having to look into a runnable source.
+66. If the project is a runnable, it should have only one ProjectCoreRunnable instance, and it should be available in process.irf_core.runnable.
+67. Always consider the dimensionality of what "better" means.
+68. Work in immediacy, only with what you have.
+69. Work for the sake of accomplishment, even if none celebrate those wins.
+70. Innate failings and shortcomings are not an excuse to drown.
+71. 
