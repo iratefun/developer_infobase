@@ -73,4 +73,7 @@
 68. Work in immediacy, only with what you have.
 69. Work for the sake of accomplishment, even if none celebrate those wins.
 70. Innate failings and shortcomings are not an excuse to drown.
-71. 
+71. Configuration files are nearly always better as configuration scripts.
+72. Configuration scripts are almost always dangerous.
+73. It is not a sin to give code execution to those who ought be able to execute code.
+74. It is always a sin to give code execution to those which should not have it.
