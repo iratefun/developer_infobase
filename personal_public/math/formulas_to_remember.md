@@ -10,3 +10,6 @@ Things I'd like to have memorized at all times, like party tricks.  I've always 
 * y/x=k
 * y=kx
 
+# Algebra 
+* distance = rate x time
+
