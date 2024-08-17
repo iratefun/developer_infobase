@@ -6,10 +6,44 @@ Things I'd like to have memorized at all times, like party tricks.  I've always 
 
 ## Pre-Algebra
 
-### Constants Of Proportionality
+### Constants Of Proportionality / slope
 * y/x=k
 * y=kx
-
+* y = mx+b
 # Algebra 
+* 
+
+### Rate and Distance
+
+* rate = distance / time 
 * distance = rate x time
+
+### Work
+
+work = force / distance
+
+### Triangles
+
+length of hypotenuse of a right triangle = sqrt(a^2 + b^2) where a and be are lengths of the triangles sides.
+
+### Volumes and Areas
+
+These formulas have to do with figuring out areas and volumes of objects.
+
+#### area for circle
+area = pi * r^2
+
+note: area can be a base for right objects
+
+#### Calculate Volume for Squareish Objects
+
+volume = base * height
+
+#### Calculate Volume For Pyramind
+
+volume = (A * h) / 3
+
+#### Cylinder Specific Volume 
+ v = pi * r^2 * h
+
 
