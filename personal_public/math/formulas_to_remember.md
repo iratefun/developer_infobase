@@ -9,7 +9,16 @@ Things I'd like to have memorized at all times, like party tricks.  I've always 
 ### Constants Of Proportionality / slope
 * y/x=k
 * y=kx
+  
+## Linerar Algebra: Slope Intercept Form
 * y = mx+b
+  
+## Linear Algebra: Point Slope Form
+* y - b = m(x - a)
+  
+## Linear Algebra: Standard Form
+* ax + by = c
+
 # Algebra 
 * 
 

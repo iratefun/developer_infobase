@@ -51,9 +51,9 @@
 46. Libraries are loaded by importing an async function named load().
 47. Avoid opaque definitions.  Define in rigid semantics.
 48. Definitions should seek to be natural.
-49. process.irf_core contains shared process resources.  
-50. All processes, workers, and threads have their own process.irf_core.
-51. process.irf_core.deps contains loaded dependencies (such as those loaded via require/import).
+49. process.project_core contains shared process resources.  
+50. All processes, workers, and threads have their own process.project_core.
+51. process.project_core.deps contains loaded dependencies (such as those loaded via require/import).
 52. The developers role is sarcosanct to any success.
 53. All runnable projects import the prcr__custom_utilities__util library as a first library. 
 54. All projects must have a unique UUID value that never changes.
@@ -68,7 +68,7 @@
 63. Objects should use always named self-references instead of "this."
 64. All runnables share a standard entry point (prcr__runnable_entry_point__util)
 65. Configuration parsers should be within prcr__class__lib.  Projects ought not hold their own config parsers.  This is so other projects can import configurations without having to look into a runnable source.
-66. If the project is a runnable, it should have only one ProjectCoreRunnable instance, and it should be available in process.irf_core.runnable.
+66. If the project is a runnable, it should have only one ProjectCoreRunnable instance, and it should be available in process.project_core.runnable.
 67. Always consider the dimensionality of what "better" means.
 68. Work in immediacy, only with what you have.
 69. Work for the sake of accomplishment, even if none celebrate those wins.
