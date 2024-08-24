@@ -77,3 +77,4 @@
 72. Configuration scripts are almost always dangerous.
 73. It is not a sin to give code execution to those who ought be able to execute code.
 74. It is always a sin to give code execution to those which should not have it.
+75. A workstation has a workspace.  That workspace is a folder.  That folder is defined in "/etc/bash.bashrc".  Most workspace tools reference $WORKSPACE_DIR in one way or another, so this variable must be set.  The preferred spot for this folder is "~/workspace/".
