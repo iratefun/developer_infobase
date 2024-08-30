@@ -81,6 +81,10 @@ The remaining projects are miscelaneous projects.
 |migration state | unstarted |
 |project uuid|592012ed-f1a1-4216-b762-3f5f02c3b4e4|
 
+* moved into "/home/tourist/workspace/software/git_controlled/ptusa__audit_cluster__runnable/"
+
+custom/classes/ptusa_shared_library_loader/PTUSASharedLibraryLoader.class.js
+
 ### ptusa_deployment_tool
 
 |----------------|-----------|

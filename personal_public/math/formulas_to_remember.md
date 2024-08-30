@@ -10,14 +10,23 @@ Things I'd like to have memorized at all times, like party tricks.  I've always 
 * y/x=k
 * y=kx
   
+## Calculate Slope From Two Points
+* (y_2 - y_1) / (x_2 - x_1)
+  
 ## Linerar Algebra: Slope Intercept Form
 * y = mx+b
   
 ## Linear Algebra: Point Slope Form
+Both of the following are the same, they're just written ( the _ character denotes subscript)
 * y - b = m(x - a)
+* (y - y_1) = m(x - x_1)
   
 ## Linear Algebra: Standard Form
-* ax + by = c
+* ax + by =  c
+* -a/b = m 
+* y intercept = c/b
+
+Point of intersection: Where two lines converge on a single point.
 
 # Algebra 
 * 

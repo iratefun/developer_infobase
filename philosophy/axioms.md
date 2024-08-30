@@ -79,3 +79,4 @@
 74. It is always a sin to give code execution to those which should not have it.
 75. All non-sensitive development environment variables go in "/etc/bash.bashrc".
 76. A workstation has a workspace.  That workspace is a folder.  That folder is defined in "/etc/bash.bashrc".  Most workspace tools reference $WORKSPACE_DIR in one way or another, so this variable must be set.  The preferred spot for this folder is "~/workspace/".
+77. Obtuse configuration files are anathema to a new user.  Always make tools run immediately unless pre-configurations are absolutely required (eg database/other credentials).
