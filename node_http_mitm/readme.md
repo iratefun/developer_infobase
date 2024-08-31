@@ -7,5 +7,23 @@
     - [x] HTTPMITMProxyFinalResponseFilter.class.js
     - [x] HTTPMITMCertificateAuthority.class.js
     - [x] HTTPMITMProxy.class.js
-- [ ] Renamed classes to be more distinct and relative to the HTTP MITM project to prevent potential confusion with other classes in the class library.
-- [ ] removed instances of "self" and replaced them with classname_ref.
+- [x] Renamed classes to be more distinct and relative to the HTTP MITM project to prevent potential confusion with other classes in the class library.
+- [x] removed instances of "self" and replaced them with classname_ref.
+- [ ] Make callbacks work linearly using async/await instead of async.forEach.  We want to do this to guarantee the order in which callbacks are executed.  We never want a situation where they are not executed in the order they are run.
+    - [ ] _onHttpServerConnect
+    - [ ] _onHttpServerConnectData
+    - [ ] _onError
+    - [ ] _onWebSocketServerConnect
+    - [ ] _onHttpServerRequest
+    - [ ] _onRequestHeaders
+    - [ ] _onRequest
+    - [ ] _onWebSocketConnection
+    - [ ] _onWebSocketFrame
+    - [ ] _onWebSocketClose
+    - [ ] _onWebSocketError
+    - [ ] _onRequestData
+    - [ ] _onRequestEnd
+    - [ ] _onResponse
+    - [ ] _onResponseHeaders
+    - [ ] _onResponseData
+    - [ ] _onResponseEnd
