@@ -28,6 +28,20 @@ Both of the following are the same, they're just written ( the _ character denot
 
 Point of intersection: Where two lines converge on a single point.
 
+## Linear Systems of Equations
+
+Linear systems of equations, or systems of lines, are pairs of linear equations that are grouped together.
+They can have either one, none, or infinitely many shared points.
+
+Converting linear equations to slope-intercept form is the easiest way to solver for them.
+
+The term 'consistent' means that a linear system has one or more points shared.
+The term 'inconsistent' means that a linear system has no points shared (aka parallel lines)
+
+The term 'independent' means that a linear system has only one point of intersection.
+The term 'dependent' means that a linear system has infinite points of intersectiosn (aka they are the same line).
+
+
 # Algebra 
 * 
 
